@@ -1,0 +1,93 @@
+.app {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.app h1 {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+}
+
+.subtitulo {
+  margin-top: 0;
+  color: #52606d;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #9aa5b1;
+  cursor: not-allowed;
+}
+
+.btn.secundario {
+  background: #e4e7eb;
+  color: #1f2933;
+}
+
+.btn.verde {
+  background: #16a34a;
+}
+
+.vista {
+  width: 100%;
+  border-radius: 12px;
+  background: #000;
+  display: block;
+}
+
+.error {
+  background: #fde8e8;
+  color: #9b1c1c;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.resultado {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resultado h2 {
+  margin: 0 0 8px;
+  text-transform: capitalize;
+}
+
+.barra {
+  height: 10px;
+  background: #e4e7eb;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 4px 0 10px;
+}
+
+.barra > div {
+  height: 100%;
+  background: #2563eb;
+}
+
+.meta {
+  font-size: 0.8rem;
+  color: #52606d;
+  margin-top: 8px;
+}

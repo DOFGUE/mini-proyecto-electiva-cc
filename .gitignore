@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+PetImages/
+*.zip
+node_modules/
+.expo/
